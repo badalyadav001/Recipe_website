@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Recipe Website</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <!-- Navigation Bar -->
+    <header>
+        <nav class="navbar">
+            <div class="logo">RecipeHub</div>
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#recipes">Recipes</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+            <div class="hamburger" id="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Main Content -->
+    <section id="home" class="home">
+        <div class="hero">
+            <h1>Welcome to RecipeHub</h1>
+            <p>Discover Delicious Recipes and Cooking Tips</p>
+        </div>
+    </section>
+
+    <section id="recipes" class="recipes">
+        <h2>Our Featured Recipes</h2>
+        <div class="recipe-list">
+            <div class="recipe-card">
+                <img src="image3.jpg" alt="Recipe 1">
+                <h3>Spaghetti Carbonara</h3>
+                <p>Quick and easy Italian pasta dish with a creamy sauce.</p>
+                <button class="recipe-button">View Recipe</button>
+            </div>
+            <div class="recipe-card">
+                <img src="img2.jpg" alt="Recipe 2">
+                <h3>Grilled Chicken Salad</h3>
+                <p>A healthy and flavorful salad with grilled chicken.</p>
+                <button class="recipe-button">View Recipe</button>
+            </div>
+            <div class="recipe-card">
+                <img src="image5.jpg" alt="Recipe 3">
+                <h3>Chocolate Cake</h3>
+                <p>Decadent, moist chocolate cake with rich frosting.</p>
+                <button class="recipe-button">View Recipe</button>
+            </div>
+        </div>
+    </section>
+
+    <section id="about" class="about">
+        <h2>About Us</h2>
+        <p>At RecipeHub, we bring you the best recipes from around the world. Our mission is to inspire home cooks with easy-to-follow recipes and cooking tips.</p>
+    </section>
+
+    <section id="contact" class="contact">
+        <h2>Contact Us</h2>
+        <form>
+            <input type="text" placeholder="Your Name" required>
+            <input type="email" placeholder="Your Email" required>
+            <textarea placeholder="Your Message" required></textarea>
+            <button type="submit">Send Message</button>
+        </form>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2024 RecipeHub | All Rights Reserved</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
